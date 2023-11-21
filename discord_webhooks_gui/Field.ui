@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Field</class>
+ <widget class="QWidget" name="Field">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>281</width>
+    <height>213</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>281</width>
+    <height>213</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>281</width>
+    <height>213</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Field</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>261</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>57</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>57</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Value</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="inlineCheckbox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>85</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Inline</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nameInput">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>241</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="maxLength">
+        <number>256</number>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="valueInput">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>241</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="maxLength">
+        <number>1024</number>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="addField">
+      <property name="text">
+       <string>Add Field</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

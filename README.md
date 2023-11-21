@@ -1,0 +1,1 @@
+Graphical User Interface for the python webhooks api wrapper [dhooks](https://github.com/kyb3r/dhooks), credits to the author. 

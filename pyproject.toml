@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "discord-webhooks-gui"
+version = "0.1.0"
+description = ""
+authors = ["Edward <edw_tike@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+validators = "^0.22.0"
+requests = "^2.31.0"
+dhooks = "^1.1.4"
+PySide6 = { version = "^6.4.2", python = "<3.11" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
