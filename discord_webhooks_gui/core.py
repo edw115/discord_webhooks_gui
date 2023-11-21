@@ -58,20 +58,6 @@ def field_dict_creation(name,value,inline):
         'inline':inline
     }
 
-def field_edit(name, value, inline, fields, position):
-    if len(name) > 0 and len(value) > 0:
-        if validators.between(len(name), min=1, max=256) and validators.between(
-            len(value), min=1, max=1024
-        ):
-            fields.pop(position)
-            fields.insert(position, {"name": name, "value": value, "inline": inline})
-            return True, fields
-        else:
-            return False, None
-    else:
-        raise Exception("name and value Fields have to be filled.")
-
-
 def embed_dict_creation(
     author,
     authorUrl,

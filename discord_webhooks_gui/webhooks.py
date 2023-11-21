@@ -1,6 +1,6 @@
 import sys
 import traceback
-from core import *
+from core import webhook_validator, embed_dict_creation, embed_creation, field_dict_creation, send
 from WebhookWindow import Ui_Webhook
 from EmbedWindow import Ui_Embed
 from FieldWindow import Ui_Field
